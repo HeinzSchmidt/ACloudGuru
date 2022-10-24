@@ -42,7 +42,7 @@ resource "azurerm_network_security_group" "netsecgroup" {
   location            = "westus"
   resource_group_name = var.az_resourcegroupname
 }
- 
+
 resource "azurerm_network_security_rule" "example" {
   name                        = "test123"
   priority                    = 100
